@@ -1,2 +1,2 @@
-Length_cm;Diameter_cm;Area_cm2;Porosity;Permeability_mD;Volume_cm3;Volume_porous_cm3;Number_blocks;Length_i_cm;Length_jk_cm;Sw;Injection_rate_cm3-hour;Surfactant_slug_vp;Surfactant_slug_cm3;Displacment_slug_vp;Displacment_slug_cm3;Rock_density_g-cm3
-50;6.1;29.22466566;0.38;10;1461.233283;555.2686475;50;1;5.405984245;1;300;0.10;55.52686475;2.5;1388.171619;2.65
+Length_cm,Diameter_cm,Area_cm2,Porosity,Permeability_mD,Volume_cm3,Volume_porous_cm3,Number_blocks,Length_i_cm,Length_jk_cm,Sw,Injection_rate_cm3-hour,Surfactant_slug_vp,Surfactant_slug_cm3,Displacment_slug_vp,Displacment_slug_cm3,Rock_density_g-cm3
+50,6.1,29.22466566,0.38,10,1461.233283,555.2686475,50,1,5.405984245,1,300,0.10,55.52686475,2.5,1388.171619,2.65
