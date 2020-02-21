@@ -1,0 +1,17 @@
+Length_cm;50
+Diameter_cm;6.1
+Area_cm2;29.22466566
+Porosity;0.38
+Permeability_mD;10
+Volume_cm3;1461.233283
+Volume_porous_cm3;555.2686475
+Number_blocks;50
+Length_i_cm;1
+Length_jk_cm;5.405984245
+Sw;1
+Injection_rate_cm3-hour;300
+Surfactant_slug_vp;0.10
+Surfactant_slug_cm3;55.52686475
+Displacment_slug_vp;2.5
+Displacment_slug_cm3;1388.171619
+Rock_density_g-cm3;2.65
