@@ -1,0 +1,110 @@
+{
+  "reservoir": {
+      "i": 50,
+      "j": 1,
+      "k": 1,
+      "di": {
+        "type": "CONS",
+        "unit": "cm",
+        "value": [ 1 ]
+      },
+      "dj": {
+        "type": "CONS",
+        "unit": "cm",
+        "value": [ 5.405984245 ]
+      },
+      "dk": {
+        "type": "CONS",
+        "unit": "cm",
+        "value": [ 5.405984245 ]
+      },
+      "perm": {
+        "type": "CONS",
+        "unit": "mD",
+        "value": [ 10 ]
+      },
+      "por": {
+        "type": "CONS",
+        "value": [ 0.38 ]
+      },
+    "denmat":{
+      "type": "CONS",
+      "unit": "g-cm3",
+      "value": [ 2.65 ]
+    }
+  },
+  "fluids": {
+    "Water_Uo": [ 1.0 ]
+  },
+  "initcond": {
+    "po": {
+      "type": "CONS",
+      "unit": "atm",
+      "value": [ 1.0 ]
+    },
+    "sw": {
+      "type": "CONS",
+      "value": [1.0]
+    }
+  },
+  "numcont": {
+    "dtmax": 1e-5,
+    "dtmin": 1e-10,
+    "dtstart": 1e-5,
+    "itmax": 40,
+    "itmin": 4,
+    "ncuts": 10
+  },
+  "wellcons": {
+    "unit": "min",
+    "timeimp": [
+      0	, 
+      10	, 
+      20	, 
+      30	, 
+      40	, 
+      50	, 
+      60	, 
+      70	, 
+      80	, 
+      90	, 
+      100	, 
+      110	, 
+      120	, 
+      130	, 
+      140	, 
+      150	, 
+      160	, 
+      170	, 
+      180	, 
+      190	, 
+      200	, 
+      210	, 
+      220	, 
+      230	, 
+      240	, 
+      250	, 
+      260	, 
+      270	, 
+      280	, 
+      290	, 
+      300	
+      ],
+    "schedule": {
+        "INJECTOR":{
+            "radw": 1.0,
+            "wsop": "QWSC",
+            "units": "cm3-hour",
+            "timechange": [ 0 ],
+            "vlsp": [ 300 ]
+      },
+        "PRODUCER":{
+            "radw": 1.0,
+            "wsop": "BHFP",
+            "units": "atm",
+            "timechange": [ 0 ],
+            "vlsp": [ 1.0 ]
+      }
+    }
+  }
+}
